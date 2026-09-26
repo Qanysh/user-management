@@ -47,8 +47,6 @@ Reset DB + re-seed: `docker compose down -v && docker compose up --build`
 | UI | React 18 + TypeScript + Vite + TanStack Query |
 | Runtime | Docker Compose + nginx |
 
-**Why FastAPI (not Django):** this assignment is an API-first module with explicit authorization boundaries. FastAPI keeps the surface small, generates OpenAPI docs, and makes dependency-based tenant/permission checks easy to reason about.
-
 ## Architecture
 
 ### Multi-tenancy
