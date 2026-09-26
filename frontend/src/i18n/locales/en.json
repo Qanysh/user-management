@@ -1,0 +1,125 @@
+{
+  "app": {
+    "name": "User Management",
+    "users": "Users",
+    "organizations": "Organizations",
+    "home": "Home",
+    "branches": "Branches",
+    "rolesRights": "Roles & permissions",
+    "settings": "Settings",
+    "signOut": "Sign out",
+    "loadingSession": "Loading session…"
+  },
+  "placeholder": {
+    "comingSoon": "Coming soon",
+    "comingSoonHint": "This page will be available shortly."
+  },
+  "lang": {
+    "label": "Language",
+    "ru": "Рус",
+    "kk": "Қаз",
+    "en": "Eng"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Demo module for organization user management.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in…",
+    "failed": "Sign-in failed",
+    "demo": "Demo:"
+  },
+  "usersPage": {
+    "title": "Organization users",
+    "subtitle": "Manage users, assign roles and branches within the current organization.",
+    "add": "+ Add user",
+    "noPermission": "You do not have permission to view users in this organization.",
+    "searchPlaceholder": "Search by name, email, phone...",
+    "allRoles": "All roles",
+    "allBranches": "All branches",
+    "allStatuses": "All statuses",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "reset": "Reset",
+    "loading": "Loading users...",
+    "pleaseWait": "Please wait",
+    "loadFailed": "Failed to load users",
+    "loadFailedHint": "Check your connection and try again.",
+    "retry": "Retry",
+    "emptyTitle": "No users found",
+    "emptyHint": "Adjust search filters or add a new user.",
+    "colUser": "User",
+    "colEmailPhone": "Email / Phone",
+    "colRole": "Role",
+    "colBranch": "Branch",
+    "colStatus": "Status",
+    "colJoined": "Date added",
+    "selectAll": "Select all",
+    "selectUser": "Select {{name}}",
+    "open": "Open",
+    "edit": "Edit",
+    "remove": "Remove",
+    "actions": "Actions",
+    "showing": "Showing {{from}}–{{to}} of {{total}} users",
+    "perPage": "{{count}} / page",
+    "noBranch": "—",
+    "confirmRemove": "Remove {{name}} from the organization?",
+    "removeFailed": "Failed to remove user",
+    "saveFailed": "Failed to save"
+  },
+  "drawer": {
+    "addTitle": "Add user",
+    "editTitle": "Edit user",
+    "viewTitle": "User card",
+    "close": "Close",
+    "tabMain": "Main information",
+    "tabActivity": "Activity history",
+    "activitySoon": "Activity history will appear in later versions of the module.",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "phonePlaceholder": "+7 ...",
+    "password": "Password (for new accounts)",
+    "passwordHint": "Leave empty if the user already exists",
+    "role": "Role",
+    "branch": "Branch",
+    "noBranch": "No branch",
+    "status": "Status",
+    "cannotDeactivateSelf": "You cannot deactivate your own account",
+    "joined": "Date added",
+    "sendInvite": "Send invitation email",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "add": "Add"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "newCount": "{{count}} new",
+    "markAll": "Mark all as read",
+    "demoFooter": "Demo data · no backend",
+    "items": {
+      "1": {
+        "title": "New user",
+        "body": "Olga Kuznetsova was added to “TOO Alpha Soft”.",
+        "time": "5 min ago"
+      },
+      "2": {
+        "title": "Role change",
+        "body": "Ivan Petrov was assigned the Manager role in Company B.",
+        "time": "1 hour ago"
+      },
+      "3": {
+        "title": "Account deactivated",
+        "body": "User Petr Ivanov was marked inactive.",
+        "time": "Yesterday"
+      },
+      "4": {
+        "title": "Invite accepted",
+        "body": "Sergey Volkov accepted the invitation to Company C.",
+        "time": "2 days ago"
+      }
+    }
+  }
+}

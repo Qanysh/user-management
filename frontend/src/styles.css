@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-surface: #ffffff;
+  --color-canvas: #f3f5f9;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    min-height: 100dvh;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply m-0 overflow-x-hidden bg-canvas font-sans text-gray-800 antialiased;
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 0.8s linear infinite;
+  }
+}
